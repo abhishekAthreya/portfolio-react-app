@@ -5,7 +5,11 @@
   "dependencies": {
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
-    "react-scripts": "2.1.1"
+    "react-grid-gallery": "^0.5.3",
+    "react-images": "^0.5.19",
+    "react-scripts": "2.1.1",
+    "react-spinner": "^0.2.7",
+    "react-tabs": "^2.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
