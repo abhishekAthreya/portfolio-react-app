@@ -1,0 +1,28 @@
+#intro{
+    margin-top: 200px;
+    margin-left: 190px;
+    width: 769px;
+    height: 138px;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1.38;
+    letter-spacing: -0.4px;
+    color: #000000;
+}
+
+span {
+    display: table;
+}
+
+.highlighted-info-container{
+    height: 500px;
+    display: flex;
+    text-align: center;
+    background: #516bb3;
+}
+
+.info{
+    margin: auto;
+    opacity: 0;
+    font-size: 20px;
+}

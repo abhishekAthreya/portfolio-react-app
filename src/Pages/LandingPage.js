@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import DesignPage from './DesignsPage';
 import '../Styles/LandingPage.css';
+import HomePage from './HomePage';
+import ProjectPage from './ProjectPage';
 
 
 class LandingPage extends Component {
@@ -9,24 +10,21 @@ class LandingPage extends Component {
       return (
         <Tabs>
         <div id="top-menu">
-        <TabList>
-          <Tab>Home</Tab>
-          <Tab>Projects</Tab>
-          <Tab>Designs</Tab>
-          <Tab>Resume</Tab>
-          <Tab>About</Tab>
-        </TabList>
+          <div id="logo">Logo</div>   
+          <TabList>
+            <Tab>Home</Tab>
+            <Tab>Projects</Tab>
+            <Tab>Resume</Tab>
+            <Tab>About</Tab>
+          </TabList>
         </div>  
         
     
         <TabPanel>
-          <h2>Home Content</h2>
+          <HomePage/>
         </TabPanel>
         <TabPanel>
-          <h2>Project Page</h2>
-        </TabPanel>
-        <TabPanel>
-          <h2><DesignPage/></h2>
+          <ProjectPage/>
         </TabPanel>
         <TabPanel>
           <h2>Resume Content</h2>
